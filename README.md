@@ -35,66 +35,12 @@ The goal of this project is to:
 - Synthesizable FPGA-ready design
 
 ---
-
-## Verification Strategy
-A complete verification flow was implemented to validate the DSP48A1 slice functionality.
-
-### Verification Includes:
-- Functional simulation of all major operation modes
-- Directed and corner-case test scenarios
-- Waveform inspection for timing and signal analysis
-- Output correctness checking against expected results
-
----
-
-## Simulation & Analysis
-Simulation was performed to verify functional correctness and timing behavior.
-
-### Tools Used
-- RTL Simulation
-- Waveform Analysis
-- Linting Tools
-- Synthesis Tools
-
-### Validation Methods
-- Signal waveform inspection
-- Timing relationship verification
-- Internal signal interaction monitoring
-
----
-
-## Linting
-Linting was applied to:
-
-- Detect RTL coding issues
-- Improve code quality
-- Ensure best practices in digital design
-- Remove synthesis/simulation mismatches
-
----
-
-## Synthesis Results
-The design was synthesized to evaluate:
-
-- Hardware resource utilization
-- Timing performance
-- FPGA implementation feasibility
-- Area optimization metrics
-
----
-
-## Project Structure
-```bash
-├── rtl/
-│   └── dsp48a1.v
-│
-├── tb/
-│   └── dsp48a1_tb.v
-│
-├── sim/
-│   └── waveform_results/
-│
-├── synthesis/
-│   └── reports/
-│
-└── README.md
+## How to Run the Simulation
+**1.** Open QuestaSim / ModelSim.
+**2.** From the top menu, click File → Change Directory.
+**3.** Navigate to the Simulation folder of the project.
+**4.** Open the Transcript/Console window if it is not visible.
+**5.** Type the following command in the Transcript:
+ do run.do
+**7.** Press Enter.
+**8.** The simulator will compile the design, start the simulation, and run automatically.
