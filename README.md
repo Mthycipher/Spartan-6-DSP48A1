@@ -1,5 +1,5 @@
 # Spartan-6-DSP48A1
-
+![DSP Design](design.png)
 ## Overview
 This project presents the **design, implementation, and verification** of the **DSP48A1 slice** using **Register Transfer Level (RTL) modeling** in Verilog.
 
