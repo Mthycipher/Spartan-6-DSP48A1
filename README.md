@@ -1,7 +1,7 @@
 # DSP48A1 RTL Design and Verification
 
 ## Overview
-This project presents the **design, implementation, and verification** of the **DSP48A1 slice** using **Register Transfer Level (RTL) modeling** in Verilog/SystemVerilog.
+This project presents the **design, implementation, and verification** of the **DSP48A1 slice** using **Register Transfer Level (RTL) modeling** in Verilog.
 
 The DSP48A1 is derived from the **DSP48A architecture** used in **Xilinx Spartan-3A FPGAs**, serving as a dedicated arithmetic block optimized for **high-speed digital signal processing (DSP)** applications.
 
