@@ -41,6 +41,6 @@ The goal of this project is to:
 **3.** Navigate to the Simulation folder of the project.
 **4.** Open the Transcript/Console window if it is not visible.
 **5.** Type the following command in the Transcript:
- do run.do
+        "" do run.do""
 **7.** Press Enter.
 **8.** The simulator will compile the design, start the simulation, and run automatically.
