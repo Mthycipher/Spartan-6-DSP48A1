@@ -1,4 +1,4 @@
-# DSP48A1 RTL Design and Verification
+# Spartan-6-DSP48A1
 
 ## Overview
 This project presents the **design, implementation, and verification** of the **DSP48A1 slice** using **Register Transfer Level (RTL) modeling** in Verilog.
@@ -36,11 +36,11 @@ The goal of this project is to:
 
 ---
 ## How to Run the Simulation
-**1.** Open QuestaSim / ModelSim.
-**2.** From the top menu, click File → Change Directory.
-**3.** Navigate to the Simulation folder of the project.
-**4.** Open the Transcript/Console window if it is not visible.
-**5.** Type the following command in the Transcript:
-        "" do run.do""
-**7.** Press Enter.
-**8.** The simulator will compile the design, start the simulation, and run automatically.
+- **1.** Open QuestaSim / ModelSim.
+- **2.** From the top menu, click File → Change Directory.
+- **3.** Navigate to the Simulation folder of the project.
+- **4.** Open the Transcript/Console window if it is not visible.
+- **5.** Type the following command in the Transcript:
+        do run.do
+- **6.** Press Enter.
+- **7.** The simulator will compile the design, start the simulation, and run automatically.
